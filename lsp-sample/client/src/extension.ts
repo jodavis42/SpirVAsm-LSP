@@ -17,7 +17,7 @@ let client: LanguageClient;
 
 export function activate(context: ExtensionContext) {
 	const serverExePath  = context.asAbsolutePath(
-		path.join('..', '..', 'SpirvAsmLanguageServer', 'OmniSharpLS', 'bin', 'Debug', 'net6.0', 'OmniSharpLS.exe')
+		path.join('..', 'OmniSharpLS', 'bin', 'Debug', 'net6.0', 'OmniSharpLS.exe')
 	);
 
 	// If the extension is launched in debug mode then the debug server options are used
